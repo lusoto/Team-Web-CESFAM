@@ -1,0 +1,41 @@
+﻿body {
+    background-image: url(../recursos/imagenes/15734-NQG5LW.jpg);
+ }
+
+#Content2{
+    text-align: center;
+}
+
+#tbl {
+    width: 60%;
+    align-self: center;
+}
+
+.btn-round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.btn-round.btn-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.inline{
+    width: auto;
+}
+
+#txtCodigo, #txtTratam, txtFecha{
+    font-weight: 500;
+    font-size: 19px;
+    padding-left: 2em;
+    margin-top: 2em;
+    width: 120px
+}
+
+#lblCodigo{
+
+}
+
+

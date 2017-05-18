@@ -1,0 +1,49 @@
+﻿header {
+}
+
+.navbar{
+    background-color: steelblue;
+}
+
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+img{
+    width: 50px;
+    border-radius: 20px;
+}
+
+.bread{
+    padding-left: 1em;
+    font-weight: bolder;
+    color: seagreen;
+}
+
+#titulo{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 1.5em;
+}
+
+#lbSalida{
+   position: absolute;
+   right: 0;
+   padding-right: 2em;
+   color: cornflowerblue;
+   font-weight: 900;
+   text-decoration:underline;
+}
+
+#txtRut{
+    border: 1px solid;
+}
+
+#lblBienv{
+   position: absolute;
+   right: 0;
+   padding-right: 15em;
+}
