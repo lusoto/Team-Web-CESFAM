@@ -7,7 +7,8 @@
 }
 
 #tabla{
-    border-color: black;
+    box-shadow: lightblue 5px 5px;
+    border: 1px solid;
 }
 
 #tbl {
@@ -15,6 +16,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
+}
+
+th{
+    background-color: steelblue;
+    color: whitesmoke;
+    padding-left: auto;
 }
 
 .btn-round {

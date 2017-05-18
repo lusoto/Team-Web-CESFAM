@@ -24,12 +24,12 @@
         </div>
     </div>
     <div id="tbl">
-        <table id="tabla" class="table table-bordered table-hover table-responsive">
+        <table id="tabla" class="table table-hover table-responsive">
             <thead>
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th>Medicamento</th>
+                    <th>Stock</th>
+                    <th>Prescripción</th>
                 </tr>
             </thead>
             <tbody>
@@ -42,7 +42,7 @@
         </table>
     </div>
     <div id="check">
-        <asp:CheckBox ID="CheckBox1" runat="server" Text="El paciente debe controlarse antes de la proxima entrega." />
+        <asp:CheckBox ID="CheckBox1" runat="server" Text="- El paciente debe controlarse antes de la proxima entrega -" />
     </div>
     <div id="btnOk">
         <button type="button" class="btn btn-success btn-lg btn-round"><span class="glyphicon glyphicon-ok"></span></button>
