@@ -2,8 +2,10 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/form.css" rel="stylesheet"/>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div>
@@ -34,7 +36,27 @@
             </thead>
             <tbody>
                 <tr>
+                    <td><button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></button></td>
                     <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -47,5 +69,7 @@
     <div id="btnOk">
         <button type="button" class="btn btn-success btn-lg btn-round"><span class="glyphicon glyphicon-ok"></span></button>
     </div>
+
+   
 </asp:Content>
 

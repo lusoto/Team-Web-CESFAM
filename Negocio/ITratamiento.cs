@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public enum Tratamiento
-    {
-        Corto, Largo, Permanente
+        public enum Tratamiento
+        {
+            Corto, Largo, Permanente
+        }
     }
-}
+    
+

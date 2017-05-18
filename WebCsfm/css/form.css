@@ -21,7 +21,10 @@
 th{
     background-color: steelblue;
     color: whitesmoke;
-    padding-left: auto;
+}
+
+td{
+    background-color: ghostwhite;
 }
 
 .btn-round {
@@ -51,7 +54,7 @@ th{
 
 .lblCodigo, .lblTratam, .lblFecha, .lblPaciente{
     margin-left: 2em;
-    width: auto;
+    width: 100px;
 }
 
 #check{

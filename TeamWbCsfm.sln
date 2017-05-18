@@ -8,6 +8,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebCsfm", "WebCsfm\", "{9F201A5E-4737-4294-A588-1D2FF650C37A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{97775f27-82ab-4738-89a8-465bcbf2b0d6}|Negocio.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49419"
 		Debug.AspNetCompiler.PhysicalPath = "WebCsfm\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49419\"
