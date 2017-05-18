@@ -21,7 +21,10 @@
 th{
     background-color: steelblue;
     color: whitesmoke;
-    padding-left: auto;
+}
+
+td{
+    background-color: ghostwhite;
 }
 
 .btn-round {

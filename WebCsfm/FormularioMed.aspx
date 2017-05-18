@@ -34,7 +34,27 @@
             </thead>
             <tbody>
                 <tr>
+                    <td><button type="button" href="#" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></button></td>
                     <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="glyphicon glyphicon-search"></button></td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -46,6 +66,26 @@
     </div>
     <div id="btnOk">
         <button type="button" class="btn btn-success btn-lg btn-round"><span class="glyphicon glyphicon-ok"></span></button>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Buscar Medicamento</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
     </div>
 </asp:Content>
 
