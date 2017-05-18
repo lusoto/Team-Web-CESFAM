@@ -11,24 +11,20 @@
     </div>
     <div class="inline">
             <label id="txtCodigo" for="lblCodigo">Código: </label>
-            <asp:Label ID="lblCodigo" runat="server" Enabled="false">(codigo)</asp:Label>
-            <label id="txtTratam" for="lblTratam">Tratamiento: </label>
-            <asp:DropDownList ID="lblTratam" runat="server"></asp:DropDownList>
+            <asp:Label class="lblCodigo" ID="lblCodigo" runat="server" Enabled="false">(codigo)</asp:Label>
+            <label id="txtTratam" for="lblTratam">Tratamiento</label>
+            <asp:DropDownList class="lblTratam" ID="lblTratam" runat="server"></asp:DropDownList>
             <label id="txtFecha" for="lblFecha">Fecha: </label>
-            <asp:Label ID="lblFecha" runat="server">(fecha)</asp:Label>
+            <asp:Label class="lblFecha" ID="lblFecha" runat="server">(fecha)</asp:Label>
     </div>
     <div>
         <div>
-            <asp:Label for="lblDoctor" runat="server" >Doctor:</asp:Label>
-            <asp:Label ID="lblDoctor" runat="server" Enabled="false">(doctor)</asp:Label>
-        </div>
-        <div>
-            <asp:Label for="lblPaciente" runat="server" >Paciente:</asp:Label>
-            <asp:Label ID="lblPaciente" runat="server" Enabled="false">(paciente)</asp:Label>
+            <asp:Label class="txtPaciente" for="lblPaciente" runat="server" >Paciente:</asp:Label>
+            <asp:Label class="lblPaciente" ID="lblPaciente" runat="server" Enabled="false">(paciente)</asp:Label>
         </div>
     </div>
     <div id="tbl">
-        <table class="table table-bordered table-hover table-responsive">
+        <table id="tabla" class="table table-bordered table-hover table-responsive">
             <thead>
                 <tr>
                     <th></th>
@@ -45,10 +41,10 @@
             </tbody>
         </table>
     </div>
-    <div>
-        <asp:CheckBox ID="CheckBox1" runat="server" Text=" El paciente debe controlarse antes de la proxima entrega." />
+    <div id="check">
+        <asp:CheckBox ID="CheckBox1" runat="server" Text="El paciente debe controlarse antes de la proxima entrega." />
     </div>
-    <div>
+    <div id="btnOk">
         <button type="button" class="btn btn-success btn-lg btn-round"><span class="glyphicon glyphicon-ok"></span></button>
     </div>
 </asp:Content>
