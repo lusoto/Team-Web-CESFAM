@@ -52,9 +52,17 @@ td{
     width: 120px
 }
 
-.lblCodigo, .lblTratam, .lblFecha, .lblPaciente{
-    margin-left: 2em;
-    width: 100px;
+.lblCodigo{
+    width: auto;
+    font-size: 18px;
+}
+
+.lblTratam{
+    margin-left: 2.5em;
+}
+
+lblFecha{
+
 }
 
 #check{

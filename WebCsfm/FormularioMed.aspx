@@ -50,7 +50,7 @@
                 <asp:ListItem Value="permanente">Permanente</asp:ListItem>
             </asp:DropDownList>
             <label id="txtFecha" for="lblFecha">Fecha: </label>
-            <asp:Label class="lblFecha" ID="lblFecha" runat="server">(fecha)</asp:Label>
+            <asp:Label class="lblFecha" ID="lblFecha" runat="server" Enabled="True"></asp:Label>
         </div>
         <div>
             <div>
