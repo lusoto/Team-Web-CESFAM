@@ -15,7 +15,12 @@
             <label id="txtCodigo" for="lblCodigo">Código: </label>
             <asp:Label class="lblCodigo" ID="lblCodigo" runat="server" Enabled="false">(codigo)</asp:Label>
             <label id="txtTratam" for="lblTratam">Tratamiento</label>
-            <asp:DropDownList class="lblTratam" ID="lblTratam" runat="server"></asp:DropDownList>
+            <asp:DropDownList class="lblTratam" ID="lblTratam" runat="server">
+                <asp:ListItem Selected="True">Seleccionar</asp:ListItem>
+                <asp:ListItem Value="corto">Corto</asp:ListItem>
+                <asp:ListItem Value="largo">Largo</asp:ListItem>
+                <asp:ListItem Value="permanente">Permanente</asp:ListItem>
+            </asp:DropDownList>
             <label id="txtFecha" for="lblFecha">Fecha: </label>
             <asp:Label class="lblFecha" ID="lblFecha" runat="server">(fecha)</asp:Label>
     </div>
