@@ -96,3 +96,20 @@ td{
 fieldset{
     margin-top: 6em
 }
+
+#pnlCant{
+    width: auto;
+}
+
+#txCant, #txHrs, #txDia{
+    width: 50px;
+    text-align: center;
+}
+
+#Label2{
+    margin-left:70px;
+}
+
+#Label4, #Label5, #Label6, #Label7{
+    margin-left:15px;
+}

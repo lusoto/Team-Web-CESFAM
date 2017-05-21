@@ -84,35 +84,37 @@
                 <tbody>
                     <tr>
                         <td>
-                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></button>
+                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModalMed"></button>
+                        </td>
+                        <td></td>
+                        <td>
+                            <button type="button" id="prescr" class="glyphicon glyphicon-calendar" data-toggle="modal" data-target="#myModalPrescr"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModalMed"></button>
                         </td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></button>
+                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModalMed"></button>
                         </td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></button>
+                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModalMed"></button>
                         </td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></button>
-                        </td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></button>
+                            <button type="button" id="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModalMed"></button>
                         </td>
                         <td></td>
                         <td></td>
@@ -134,19 +136,51 @@
             <ContentTemplate>
                 <!-- Modal -->
                 <asp:Label ID="Label1" runat="server" Text=""></asp:Label><br />
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                <div class="modal fade" id="myModalMed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div id="tituloMod" class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Buscar Medicamento</h4>
+                                <h4 class="modal-title" id="myModalLblMed">Buscar Medicamento</h4>
                             </div>
                             <div class="modal-body">
                                 <div id="busq" class="input-group">
                                     <input id="buscar" type="text" class="form-control" name="buscar" placeholder="Ingresar Medicamento" />
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-search" ></i></span>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <asp:Button Text="Guardar" runat="server" class="btn btn-success" data-dismiss="modal" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Modal -->
+                <asp:Label ID="Label3" runat="server" Text=""></asp:Label><br />
+                <div class="modal fade" id="myModalPrescr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div id="mod" class="modal-content">
+                            <div id="tituloMod" class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLblPresc">Prescripción</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="input-group">
+                                    <div id="pnlCant">
+                                        <asp:Label id="Label2" runat="server" Text="Cantidad: "></asp:Label>
+                                        <asp:TextBox id="txCant" runat="server" ToolTip="Unidades" TextMode="Number" Text="0"></asp:TextBox>
+                                        <asp:Label id="Label4" runat="server" Text=" X "></asp:Label>
+                                        <asp:Label id="Label5" runat="server" Text="Horas: "></asp:Label>
+                                        <asp:TextBox id="txHrs" runat="server" ToolTip="Horas" TextMode="Number" Text="0"></asp:TextBox>
+                                        <asp:Label id="Label6" runat="server" Text=" X "></asp:Label>
+                                        <asp:Label id="Label7" runat="server" Text="Días"></asp:Label>
+                                        <asp:TextBox id="txDia" runat="server" ToolTip="Días" TextMode="Number" Text="0"></asp:TextBox>
+                                    </div>
                                 </div>
                             </div>
                             <div class="modal-footer">

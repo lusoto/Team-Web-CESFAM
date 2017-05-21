@@ -12,8 +12,5 @@ public partial class Pruebas : System.Web.UI.Page
         txtFecha.Text = DateTime.Now.ToString("dd/MM/yyyy");
     }
 
-    protected void Submit(object sender, EventArgs e)
-    {
-        
-    }
+
 }
