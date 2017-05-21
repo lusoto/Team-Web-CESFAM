@@ -11,7 +11,20 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link href="css/master.css" rel="stylesheet"/>
-        <link href="css/form.css" rel="stylesheet"/>
+    <link href="css/form.css" rel="stylesheet"/>
+    <link href="css/general.css" rel="stylesheet"/>
+
+
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            display: table;
+            border-collapse: separate;
+            top: 68px;
+            left: 0px;
+        }
+    </style>
+
 
 </head>
 <body>
@@ -30,7 +43,7 @@
         </asp:SiteMapPath>
         <asp:Label ID="lblBienv" runat="server" Font-Bold="True" Font-Names="Tahoma" ForeColor="Black" ToolTip="Hola!">Bienvenido (Usuario)</asp:Label>
         <asp:Panel ID="Panel1" runat="server">
-            <a href="Login.aspx" ><asp:Label   ID="lbSalida" runat="server" Text="Label"><i class="glyphicon glyphicon-log-out"></i> Salir</asp:Label></a>
+            <a href="Login.aspx" ><asp:Label   ID="lbSalida" runat="server" Text="Label"><i class="salida glyphicon glyphicon-log-out"></i> Salir</asp:Label></a>
         </asp:Panel>
     </div>
 
@@ -38,24 +51,25 @@
         <p id="titulo">Formulario Medicamentos</p>
     </div>
     <form id="form1" runat="server">
-
         <div class="inline">
-            <label id="txtCodigo" for="lblCodigo">Código: </label>
-            <asp:Label class="lblCodigo" ID="lblCodigo" runat="server" Enabled="false">(codigo)</asp:Label>
-            <label id="txtTratam" for="lblTratam">Tratamiento</label>
-            <asp:DropDownList class="lblTratam" ID="lblTratam" runat="server" Height="21px" Width="120px">
-                <asp:ListItem Selected="True">Seleccionar...</asp:ListItem>
-                <asp:ListItem Value="corto">Corto</asp:ListItem>
-                <asp:ListItem Value="largo">Largo</asp:ListItem>
-                <asp:ListItem Value="permanente">Permanente</asp:ListItem>
-            </asp:DropDownList>
-            <label id="txtFecha" for="lblFecha">Fecha: </label>
-            <asp:Label class="lblFecha" ID="lblFecha" runat="server" Enabled="True"></asp:Label>
+            <div id="pnlInp" class="input-group">
+                <span id="tx" class="label-info input-group-addon">Código</span>
+                <asp:TextBox  type="text" class="form-control" id="txtCod" disabled runat="server"></asp:TextBox>
+                <span id="tx" class="label-info input-group-addon">Paciente</span>
+                <asp:TextBox type="text" class="form-control" id="txtPac" disabled runat="server"></asp:TextBox>
+                <span id="tx" class="label-info input-group-addon">Fecha</span>
+                <asp:TextBox type="text" class="form-control" id="txtFecha" disabled runat="server"></asp:TextBox>
+            </div>
         </div>
-        <div>
-            <div>
-                <asp:Label class="txtPaciente" for="lblPaciente" runat="server">Paciente:</asp:Label>
-                <asp:Label class="lblPaciente" ID="lblPaciente" runat="server" Enabled="false">(paciente)</asp:Label>
+        <div class="inline">
+            <div id="pnlTrat" class="input-group">
+                <span id="tx" class="label-info input-group-addon">Tratamiento</span>
+                <asp:DropDownList class="lblTratam form-control" ID="lblTratam" runat="server">
+                    <asp:ListItem Selected="True">Seleccionar...</asp:ListItem>
+                    <asp:ListItem Value="corto">Corto</asp:ListItem>
+                    <asp:ListItem Value="largo">Largo</asp:ListItem>
+                    <asp:ListItem Value="permanente">Permanente</asp:ListItem>
+                </asp:DropDownList>
             </div>
         </div>
         <div id="tbl">

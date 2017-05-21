@@ -3,21 +3,31 @@
 }
 
 fieldset{
-    width: 300px;
+    width: 350px;
     position: relative;
 }
 
 #busq{
     margin-left: 8em;
-    margin-top: 6em;
-    margin-bottom: 3em;
+    margin-top: 3em;
+    margin-bottom: 5em;
 }
 
-#pnlRut, #pnlNomb, #pnlEdad{
-    margin-left: 8em;
-    margin-bottom: 1em;
+#pnlRut{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    margin-right: 6em;
 }
 
+#pnlNomb{
+    margin-left: 4em;
+    margin-bottom: 2em;
+}
+
+#pnlEdad{
+    margin-left: 4em;
+    margin-right: 6em
+}
 
 #fldBtnForm{
    text-align: right;

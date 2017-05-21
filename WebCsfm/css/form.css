@@ -6,6 +6,19 @@
     text-align: center;
 }
 
+#txtCod{
+    padding-right: 3em;
+    text-align: center;
+}
+
+#txtFecha{
+    text-align: center;
+}
+
+#txtPac{
+    width: 350px;
+}
+
 #tabla{
     box-shadow: lightblue 5px 5px;
     border: 1px solid;
@@ -21,10 +34,12 @@
 th{
     background-color: steelblue;
     color: whitesmoke;
+    text-align: center;
 }
 
 td{
     background-color: ghostwhite;
+    border: 0.5px dotted;
 }
 
 .btn-round {
@@ -44,25 +59,15 @@ td{
     margin-bottom: 2em;
 }
 
-#txtCodigo, #txtTratam, #txtFecha, .txtPaciente{
-    font-weight: 600;
-    font-size: 19px;
-    padding-left: 2em;
-    margin-top: 2em;
-    width: 120px
+#pnlInp{
+    margin-top: 6em;
+    margin-right: 10em;
+    margin-left: 13em
 }
 
-.lblCodigo{
-    width: auto;
-    font-size: 18px;
-}
-
-.lblTratam{
-    margin-left: 2.5em;
-}
-
-lblFecha{
-
+#pnlTrat{
+    width: 20%;
+    margin: 0 auto;
 }
 
 #check{
@@ -80,6 +85,14 @@ lblFecha{
     color: whitesmoke;
 }
 
-#busq{
-    
+#logobuscar{
+    width: auto;
+}
+
+#cuadrobuscar{
+    width: 150px;
+}
+
+fieldset{
+    margin-top: 6em
 }

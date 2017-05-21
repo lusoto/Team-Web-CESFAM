@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/master.css" rel="stylesheet"/>
+    <link href="css/general.css" rel="stylesheet" />
 </head>
 <body>
     <div class="navbar">
@@ -30,7 +31,7 @@
         </asp:SiteMapPath>
         <asp:Label ID="lblBienv" runat="server" Font-Bold="True" Font-Names="Tahoma" ForeColor="Black" ToolTip="Hola!">Bienvenido (Usuario)</asp:Label>
         <asp:Panel ID="Panel1" runat="server">
-            <a href="Login.aspx" ><asp:Label   ID="lbSalida" runat="server" Text="Label"><i class="glyphicon glyphicon-log-out"></i> Salir</asp:Label></a>
+            <a href="Login.aspx" ><asp:Label   ID="lbSalida" runat="server" Text="Label"><i class="salida glyphicon glyphicon-log-out"></i> Salir</asp:Label></a>
         </asp:Panel>
     </div>
         
