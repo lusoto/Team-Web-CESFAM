@@ -23,7 +23,7 @@
                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                     <asp:TextBox id="user" type="text" class="form-control" name="user" placeholder="Usuario" runat="server" ToolTip="Usuario"></asp:TextBox>
             </div>
-            <div><asp:Label id="test" runat="server">txt</asp:Label></div>
+            <div><asp:Label id="test" runat="server"></asp:Label></div>
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                     <asp:TextBox id="password" type="password" class="form-control" name="password" placeholder="Clave" runat="server" ToolTip="Clave"></asp:TextBox>

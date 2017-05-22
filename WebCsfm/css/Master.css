@@ -45,5 +45,6 @@ img{
 #lblBienv{
    position: absolute;
    right: 0;
-   padding-right: 15em;
+   padding-right: 7em;
+   margin-bottom: 1em;
 }

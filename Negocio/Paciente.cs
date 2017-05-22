@@ -8,15 +8,15 @@ namespace Negocio
 {
     public class Paciente
     {
-        private string Rut { get; set; }
-        private string Nombres { get; set; }
-        private string ApellidoPat { get; set; }
-        private string ApellidoMat { get; set; }
-        private string Sector { get; set; }
-        private string Direccion { get; set; }
-        private int Celular { get; set; }
-        private int RedFija { get; set; }
-        private string RutTutor { get; set; }
+        public string Rut_Paciente { get; set; }
+        public string Nombres { get; set; }
+        public string ApellidoPat { get; set; }
+        public string ApellidoMat { get; set; }
+        public string Sector { get; set; }
+        public string Direccion { get; set; }
+        public int Celular { get; set; }
+        public int RedFija { get; set; }
+        public string RutTutor { get; set; }
         
         public Paciente()
         {
@@ -25,7 +25,7 @@ namespace Negocio
 
         private void Init()
         {
-            this.Rut = string.Empty;
+            this.Rut_Paciente = string.Empty;
             this.Nombres = string.Empty;
             this.ApellidoPat = string.Empty;
             this.ApellidoMat = string.Empty;

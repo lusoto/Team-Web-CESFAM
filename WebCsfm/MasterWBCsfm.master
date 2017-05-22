@@ -31,10 +31,9 @@
         </asp:SiteMapPath>
         <asp:Label ID="lblBienv" runat="server" Font-Bold="True" Font-Names="Tahoma" ForeColor="Black" ToolTip="Hola!">Bienvenido </asp:Label>
         <asp:Panel ID="Panel1" runat="server">
-            <a href="Login.aspx" ><asp:Label   ID="lbSalida" runat="server" Text="Label"><i class="salida glyphicon glyphicon-log-out"></i> Salir</asp:Label></a>
+            <asp:Label ID="lbSalida" runat="server" Text="Label"><i class="salida glyphicon glyphicon-log-out"></i> Salir</asp:Label>
         </asp:Panel>
     </div>
-        
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

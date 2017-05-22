@@ -11,10 +11,19 @@ using Newtonsoft.Json;
 
 public partial class MasterWBCsfm : System.Web.UI.MasterPage
 {
-    Service1Client csfm = new Service1Client();
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        
+        if(Session != null)
+        {
+            lblBienv.Text = "Bienvenido " + Session["usuario"].ToString();
+        }
     }
+
+    protected void salir_Click(object sender, EventArgs e)
+    {
+        Session.RemoveAll();
+        Server.Transfer("./Login.aspx", true);
+    }
+
 }

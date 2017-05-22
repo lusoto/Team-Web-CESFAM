@@ -13,10 +13,13 @@
         <p id="titulo">Archivo de Pacientes</p>
     </div>
     <fieldset>
-        <div id="busq" class="input-group">
-            <asp:TextBox ID="buscar" type="text" class="form-control" text="Ingresar Rut" autofocus="autofocus" runat="server"></asp:TextBox>
-            <span class="label-info input-group-addon" onclick=""><i class="glyphicon glyphicon-search"></i></span>
+        <div class="inline">
+            <div id="busq" class="input-group">
+                <asp:TextBox ID="buscar" type="text" class="form-control" text="Ingresar Rut" autofocus="autofocus" runat="server"></asp:TextBox>
+                <asp:Button class="label-info input-group-addon glyphicon glyphicon-search" OnClick="buscar_Click" runat="server"></asp:Button>
+            </div>
         </div>
+        
         <div id="pnlNomb" class="input-group">
             <span id="tx" class="label-info input-group-addon">Nombre</span>
             <asp:TextBox type="text" class="form-control" ID="txtNombre" disabled runat="server"></asp:TextBox>
