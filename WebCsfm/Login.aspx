@@ -17,21 +17,18 @@
             <h1><img src="recursos/imagenes/logo_cesfam.jpg"/> Web CESFAM</h1>
         </div>
     </div>
-    <form id="form1" runat="server" action="Busqueda.aspx" method="post">
+    <form id="form1" runat="server" method="post">
         <fieldset>
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                <a href="#" data-toggle="tooltip" title="Usuario">
-                    <input id="user" type="text" class="form-control" name="user" placeholder="Usuario" />
-                </a>
+                    <asp:TextBox id="user" type="text" class="form-control" name="user" placeholder="Usuario" runat="server" ToolTip="Usuario"></asp:TextBox>
             </div>
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                <a href="#" data-toggle="tooltip" title="Clave">
-                    <input id="password" type="password" class="form-control" name="password" placeholder="Clave" />
-                </a>
+                    <asp:TextBox id="password" type="password" class="form-control" name="password" placeholder="Clave" runat="server" ToolTip="Clave"></asp:TextBox>
             </div>
-            <button type="submit" class="btn btn-success" >Ingresar</button>
+            <br />
+            <asp:Button class="btn btn-success" runat="server" Text="Ingresar" ID="btnIngresar" OnClick="btnIngresar_Click"/>
         </fieldset>
     </form>
 </body>
