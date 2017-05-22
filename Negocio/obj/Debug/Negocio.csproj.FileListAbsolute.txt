@@ -14,6 +14,6 @@ C:\Users\claudio\Documents\Visual Studio 2015\Projects\CesfamWebTeam\Negocio\obj
 C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Negocio\bin\Debug\Negocio.dll.config
 C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Negocio\bin\Debug\Negocio.dll
 C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Negocio\bin\Debug\Negocio.pdb
-C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Negocio\obj\Debug\Negocio.dll
 C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Negocio\obj\Debug\Negocio.pdb
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache

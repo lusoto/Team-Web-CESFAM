@@ -1,0 +1,10 @@
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\bin\Debug\Test.exe.config
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\bin\Debug\Test.exe
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\bin\Debug\Test.pdb
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\obj\Debug\Test.exe
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\obj\Debug\Test.pdb
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\claudio\Source\Repos\Team-Web-CESFAM\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache

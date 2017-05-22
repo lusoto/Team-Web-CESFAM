@@ -8,11 +8,11 @@ namespace Negocio
 {
     public class Medico
     {
-        private string Rut { get; set; }
-        private string Nombres { get; set; }
-        private string ApellidoPat { get; set; }
-        private string ApellidoMat { get; set; }
-        private string Pass { get; set; }
+        public string RutUser { get; set; }
+        public string Nombres { get; set; }
+        public string ApellidoPat { get; set; }
+        public string ApellidoMat { get; set; }
+        public string Pass { get; set; }
 
         public Medico()
         {
@@ -21,7 +21,7 @@ namespace Negocio
 
         private void Init()
         {
-            this.Rut = string.Empty;
+            this.RutUser = string.Empty;
             this.Nombres = string.Empty;
             this.ApellidoPat = string.Empty;
             this.ApellidoMat = string.Empty;
